@@ -11,8 +11,8 @@ const taso = [
             "toistoLkm": 1
         },
         "pohjoinen": null,
-        "ita": null,
-        "etela": {"huoneeseen": 4, "avain": null},
+        "ita": {"huoneeseen": 4, "avain": 1},
+        "etela": {"huoneeseen": 2, "avain": null},
         "lansi": {"huoneeseen": 7, "avain": 2},
         "vastustaja": null,
         "avain": null,
