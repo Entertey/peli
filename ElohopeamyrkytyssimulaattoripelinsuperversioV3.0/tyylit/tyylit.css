@@ -1,0 +1,239 @@
+/* tyylit.css IH 2017*/
+
+body{
+    background-color: #bf7337;
+}
+
+main{
+    position: relative;
+    width: 390px;
+    height: 410px;
+    background-color: bisque;
+    border-radius: 5%;
+    border: peru solid 4px;
+}
+
+p{
+    position: absolute;
+    box-sizing: border-box;
+    left:45px;
+    width: 300px;
+    height: 300px;
+    padding:10px;
+    border: peru solid 4px;
+    border-radius: 5%;
+    background-color: burlywood;
+    color:brown;
+    font-size: 16pt;
+    text-align: center;
+    overflow-y: auto;
+}
+
+#keskirivi{
+    position:relative;
+    width: 100%;
+    top:30px;
+}
+
+button{
+    position: absolute;
+    border-radius: 10px;
+    background-color:#f2ac76;
+    color:brown;
+    font-size: 14pt;
+    width:300px;
+    height: 40px;
+    outline:none;
+}
+
+#lansi{
+    top:280px;
+    left:42px;
+    transform-origin: bottom left;
+    transform: rotate(-90deg);
+}
+
+#ita{
+     top:20px;
+    left:388px;
+    transform-origin: left top;
+    transform: rotate(90deg);
+}
+
+#pohjoinen{
+    left:45px;
+    top:0px;
+}
+
+#etela{
+    left:45px;
+    top:360px;
+}
+
+.eivalittavissa{
+    visibility: hidden;
+}
+
+.valittavissa{
+    visibility: visible;
+}
+#valinnat button{
+    width: 395px;
+    background-color:#ffac76;
+    color:  indigo;
+}
+
+#uusiPeli {
+    width: 395px;
+}
+footer{
+    padding-top:45px;
+    padding-left:1em;
+    color:brown;
+    font-size:  small;
+}
+
+h1{
+    margin-left: 10px;
+}
+
+#tulos {
+  color: #220080;
+  background: white;
+  margin-right: 80%;
+}
+
+#map {
+  background-color: white;
+}
+
+.huone10 #map{
+	background-image: url(10.png);
+	width:128px;
+	height:128px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.huone1 #map{
+	background-image: url(1.png);
+	width:128px;
+	height:128px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.huone2 #map{
+	background-image: url(2.png);
+	width:128px;
+	height:128px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.huone3 #map{
+	background-image: url(3.png);
+	width:128px;
+	height:128px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.huone4 #map{
+	background-image: url(4.png);
+	width:128px;
+	height:128px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.huone5 #map{
+	background-image: url(5.png);
+	width:128px;
+	height:128px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.huone6 #map{
+	background-image: url(6.png);
+	width:128px;
+	height:128px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.huone7 #map{
+	background-image: url(7.png);
+	width:128px;
+	height:128px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.huone8 #map{
+	background-image: url(8.png);
+	width:128px;
+	height:128px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.huone9 #map{
+	background-image: url(9.png);
+	width:128px;
+	height:128px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.huone10 {
+  background-image: url(./door.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.huone1 {
+  background-image: url(./torni.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.huone2 {
+	background-image: url(./sisaan.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.huone3 {
+	background-image: url(./torni.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.huone4 {
+	background-color: black;
+}
+.huone5 {
+	background-image: url(./portaat.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.huone6 {
+	background-image: url(./puisto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.huone7 {
+	background-image: url(./viaton.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.huone8 {
+	background-image: url(./valo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.huone9 {
+	background-image: url(./pikari.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
